@@ -27,7 +27,6 @@ def collect_student_info():
 
 
 def print_grades():
-
     for i in range(len(records)):
         print(records[i]["name"], "\t", records[i]["first_score"], "\t", records[i]["second_score"], "\t",
               records[i]["total"], "\t", records[i]["average"], "\t", records[i]["position"])
